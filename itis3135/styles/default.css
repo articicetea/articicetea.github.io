@@ -11,13 +11,13 @@ body
 header, footer
 {
 	text-align: center;
-	color: #FBEEC1;
+	color: #DAAD86;
 	font-weight: bold;
 }
 
 h1, h2, h3
 {
-	color: #DAAD86;
+	color: #FBEEC1;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	text-align: center;
 }
