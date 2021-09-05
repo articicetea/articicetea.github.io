@@ -1,8 +1,8 @@
 body
 {
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	color: #F4AC45 ;
-	background-color: #694A38;
+	color: #DAAD86 ;
+	background-color: #659DBD;
 	margin-left: 75px;
 	margin-right: 75px;
 }
@@ -11,13 +11,13 @@ body
 header, footer
 {
 	text-align: center;
-	color: #F4AC45;
+	color: #FBEEC1;
 	font-weight: bold;
 }
 
 h1, h2, h3
 {
-	color: #F4AC45;
+	color: #DAAD86;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	text-align: center;
 }
