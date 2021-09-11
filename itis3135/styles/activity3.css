@@ -10,7 +10,7 @@ body {
 
 /*styling for the page title*/
 h1 {
-	font-style: bold;
+	font-weight: bold;
 	font-size: 28px;
     text-align: center;
     background-color: #996600;

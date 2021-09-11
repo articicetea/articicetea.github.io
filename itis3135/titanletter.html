@@ -14,9 +14,9 @@
 		</nav>	
 	
 	<main>
-		<img src="ap_paper.jpg" alt="News photo">
+		<img src=https://webpages.uncc.edu/jlair1/itis3135/images/ap_paper.jpg alt="News photo">
 		<p> Hello and thank you for your interest in Titan Design, please enter your information in below to subscribe to our newsletter. </p>
-		<form>
+		<form action="#">
 			<label for="name">Your name:</label><br>
 			<input type="text" id="name" name="name" size="50"  required><br>
 			
@@ -29,11 +29,11 @@
 			<label for="offers">Please select if you'd like offers from our partners:</label>
 			<input type="checkbox" id="offers" name="offers"><br>
 			
-			<label for="communication">Please select if you prefer email, text communication, or both:</label><br>
+			<label for="emailradio">Please select if you prefer email, text communication, or both:</label><br>
 			<input type="radio" id="emailradio" name="email_communication" value="E-mail">
 			<label for="email">E-Mail</label>
 			<input type="radio" id="textradio" name="text_communication" value="Text">
-			<label for="text">Text</label><br>
+			<label for="textradio">Text</label><br>
 			
 			<label for="species">Please inform us of your species:</label>
 			<select id="species" name="species">
@@ -41,9 +41,8 @@
 				<option value="dog">Dog</option>
 				<option value="cat">Cat</option>
 			</select><br>
-			<form action="#">
 			<label for="submit"> Press here to submit</label>
-			<input type="submit" value="Submit">
+			<input type="submit" id="submit" value="Submit">
 		</form>
 		
 		
