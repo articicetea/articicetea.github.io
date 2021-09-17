@@ -1,64 +1,82 @@
-body
-{
-	font-family:'Yu Mincho', 'Book Antiqua', Century, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	color: #FBEEC1 ;
+body{
+	font-family: 'Trebuchet MS', sans-serif, Calibri;
+	color: #FFFFF0;
 	background-color: #659DBD;
 	margin-left: 75px;
 	margin-right: 75px;
 }
 
-
-header, footer
-{
+header, footer{
 	text-align: center;
 	color: #DAAD86;
 	font-weight: bold;
 }
 
-h1, h2, h3
-{
+h1{
 	color: #FBEEC1;
-	font-family: 'Yu Mincho', 'Book Antiqua', Century, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-family:'Yu Mincho', 'Book Antiqua' , Calibri;
+	text-align: center;
+}
+h2{
+	color: #FBEEC1;
+	font-family: Garamond, serif;
 	text-align: center;
 }
 
-h3
-{
-	font-size: 200%;
-	line-height: 0px;
+h3{
+	font-weight: 50;
+	font-size: 18px;
+	color: #FFFFF0;
+	font-family: Georgia, serif;
 }
 
-a
-{
-	text-decoration: none;
-	color:ivory;
+/* Link formatting */
+a{
+	color: #7DF9FF;
 }
 
-a:hover
-{
-	text-decoration: overline underline;
+/*
+a:Before{
+	content: "| ";
+	color: #7DF9FF;
 }
 
+a:After{
+	content: " |";
+	color: #7DF9FF;
+}
 
-figure
-{
+*/
+
+a:hover{
+	color:brown;
+}
+
+/*Figures */
+figure{
 	text-align: center;
-  
-
 }
 
-figcaption
-{
+figcaption{
 	font-style: italic;
 }
 
-
-nav
-{
-	text-align: center;
+/*Navigation */
+nav{
+	text-align:center;
 }
 
-img.resize {
-  max-width:25%;
-  max-height:25%;
+
+img.resize{
+	max-width:25%;
+	max-height:25%
 }
+
+/* Color scheme
+	Light brown- #DAAD86
+	Dark brown- #BC986A
+	Tannish white- #FBEEC1
+	Sky blue- #659DBD
+	Forest green- #8D8741
+	Ivory- #FFFFF0
+	*/
