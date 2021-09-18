@@ -66,6 +66,11 @@ nav{
 	text-align:center;
 }
 
+img.standard{
+	max-height: 75%;
+	max-width: 75%
+}
+
 
 img.resize{
 	max-width:25%;

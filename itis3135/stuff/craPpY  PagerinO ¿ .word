@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<link href="https://webpages.uncc.edu/jlair1/itis3135/styles/default.css" rel="stylesheet" type="text/css">
+	<title>Jon Lair, ITIS3135, Website Evaluations</title>
+</head>
+
+<body>
+	<header>
+		<h1> Jon Lair --- ITIS3135</h1>
+	</header>
+	<nav>
+		<a href="https://webpages.uncc.edu/jlair1/itis3135/index.html">| Index |</a>
+	</nav>
+	
+	<!--Main content -->
+	<main>
+		<h2>Website Evaluations</h2>
+		
+		<h3>
+		
+		</h3>
+		
+			
+		
+	</main>
+	
+	<!--Start of footer -->
+	<footer>
+		<br>
+		<p>
+			Page built by <em> Titan Design </em>
+		</p>
+		
+		<!-- Validators -->
+		<a href="https://validator.w3.org/check?uri=referer">| Validate HTML |</a>
+		<a href="https://jigsaw.w3.org/css-validator/check/referer">| Validate CSS |</a>
+	</footer>
+</body> </html>
