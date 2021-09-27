@@ -1,0 +1,103 @@
+h1
+{
+text-align: center;
+font-family: courier;
+}
+
+h2, h3
+{
+margin: 30px;
+font-family: courier;
+}
+
+body
+{
+background-color: #D7D0C8;
+font-family: Candara;
+margin: 0;
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+}
+
+
+header
+{
+background-color: #BD897E;
+border-top: 2px solid #f46036ff;
+border-bottom: 2px solid #f46036ff;
+width:100%;
+height:50%;
+}
+
+.mainflex 
+{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.mainflex-content 
+{
+  flex: 1;
+}
+
+footer
+{
+background-color: #BD897E;
+border-top: 2px solid #f46036ff;
+border-bottom: 2px solid #f46036ff;
+text-align: center;
+position: absolute;
+width: 100%;
+bottom: 0;
+}
+
+nav
+{
+text-align: center;
+}
+
+a
+{
+font-weight: bold;
+color: #95a78dff;
+text-shadow: 1px 2px 3px yellow;
+}
+
+p
+{
+margin: 30px;
+}
+
+ul
+{
+list-style-image: url(images/jl_logo_face_bullet_openclipart_org.png);
+}
+
+li
+{
+margin-bottom: 5px;
+}
+
+/* Color scheme
+	Light brown- #DAAD86
+	Dark brown- #BC986A
+	Tannish white- #FBEEC1
+	Sky blue- #659DBD
+	Forest green- #8D8741
+	Ivory- #FFFFF0
+	*/
+	
+	
+/*Palette 
+leopard yellow: #e5cf8c;
+
+-timberwolf: #d7d0c8ff;
+-bone: #c8c6afff;
+-morning-blue: #95a78dff;
+-rosy-brown: #bd897eff;
+-portland-orange: #f46036ff 
+
+from:
+https://coolors.co/d7d0c8-c8c6af-95a78d-bd897e-f46036  */
