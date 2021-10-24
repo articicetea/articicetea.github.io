@@ -7,20 +7,17 @@ font-family: courier;
 h2, h3
 {
 font-family: courier;
+margin: 0px;
 }
 
 body
 {
 background-color: #D7D0C8;
 font-family: Candara;
-margin: 0px;
+margin: 10px;
 display: flex;
 min-height: 100vh;
 flex-direction: column;
-}
-
-main{
-margin: 30px;	
 }
 
 header
@@ -30,6 +27,10 @@ border-top: 2px solid #f46036ff;
 border-bottom: 2px solid #f46036ff;
 width:100%;
 height:50%;
+}
+
+main{
+margin: 10px;
 }
 
 .mainflex 
@@ -62,14 +63,9 @@ text-align: center;
 
 a
 {
-font-weight: bold;
-color: #95a78dff;
-text-shadow: 1px 2px 3px yellow;
+color: #blue;
 }
 
-p
-{
-}
 
 ul
 {

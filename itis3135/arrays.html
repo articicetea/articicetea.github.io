@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Jon Lair, ITIS3135, Arrays</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link href="styles/default.css" rel="stylesheet" type="text/css">
+	<script src="scripts/arrays.js"></script>
+</head>
+
+<body class="mainflex">
+	<header>
+		<h1>Jon Lair --- ITIS3135</h1>
+	</header>
+	<nav>
+		<a href="index.html">| Index |</a>
+	</nav>
+	
+	<main class="mainflex-content">
+		
+		<div>
+		<h2>Use this dropdown to view employees</h2>
+		<br>
+		<label for="employees">Select an employee</label>
+		<select name="employees" id="employees">
+			<option value="Dick Grayson">Dick Grayson</option>
+			<option value="Kory Anders">Kory Anders</option>
+			<option value="Gar Logan">Gar Logan</option>
+			<option value="Rachel Roth">Rachel Roth</option>
+			<option value="Dawn Granger">Dawn Granger</option>
+			<option value="Hank Hall">Hank Hall</option>
+			<option value="Donna Troy">Donna Troy</option>
+		</select>
+		</div>
+		<br>
+		<br>
+		<h2>Click below for to display the results of the average and highest employee salary</h2>
+		<br>
+		<input type = "button" value = "Salary results" onclick = "displayResults()">
+		
+		<div id="result"> 
+		<p> <b>Average:</b> <br> <b>Highest:</b> </p>
+		</div>
+		<br>
+		<br>
+		<h2>Click below to see a table of employee salaries</h2>
+		<br>
+		<input type = "button" value = "Display salary table" onclick="displaySalary()">
+		<div id="tableDiv"> </div>
+		
+		<br>
+		<br>
+		<div>
+		<h2>Add an employee and salary to the database</h2>
+		<br>
+		<form>
+			<label for="eName">Employee Name: </label>
+			<input type= "text" id="eName" name="employeeName" autofocus>
+			<label for="eSalary">Employee Salary: </label>
+			<input type= "text" id="eSalary" name="employeeSalary">
+		</form>
+		<br>
+		<input type= "button" value= "Submit" onclick= "addSalary()">
+		</div>
+
+	</main>
+	
+
+	<footer>
+		<br>
+		<p>
+			Page built by <em> Jagged Leopard Industries. 2021</em> &copy; <img src= "images/jl_logo_black_resize_left_openclipart_org.png" alt= "jagged leopard black logo">
+		</p>
+		<a href="https://validator.w3.org/check?uri=referer" style= "text-shadow: 1px 2px 3px blue">| Validate HTML |</a>
+		<a href="https://jigsaw.w3.org/css-validator/check/referer" style= "text-shadow: 1px 2px 3px blue">| Validate CSS |</a>
+	</footer>
+	
+</body> 
+</html>
