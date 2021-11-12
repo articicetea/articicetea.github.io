@@ -1,0 +1,65 @@
+/*ITIS 3135 Activity 3 css file*/
+
+/*styling for the whole page goes here*/
+body {
+	font-family:'Yu Mincho', 'Book Antiqua', Century, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 16px;
+    background-color: #BC986A;
+	color: #FBEEC1;
+}
+
+/*styling for the page title*/
+h1 {
+	font-weight: bold;
+	font-size: 28px;
+    text-align: center;
+    background-color: #996600;
+	color: #f8f8f8;
+}
+
+/*styling for the name input*/
+input[type=text] {
+  border: 2px solid black;
+  border-radius: 4px;
+  font-family: 'Times New Roman'
+}
+
+/*styling for the email input*/
+input[type=email] {
+  border: 2px solid red;
+  border-radius: 4px;
+}
+
+/*styling for the number input*/
+input[type=number] {
+  border: 2px solid green;
+  border-radius: 4px;
+}
+
+/*styling for the submit button*/
+input[type=submit] {
+background: linear-gradient(to bottom, #9933ff 0%, #ffcc99 100%);
+}
+
+/*styling for the bottom copyright information*/
+footer {
+    font-style: italic;
+	font-size: 12px;
+	text-align: center;
+}
+
+/*image styling*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Color scheme
+	Light brown- #DAAD86
+	Dark brown- #BC986A
+	Tannish white- #FBEEC1
+	Sky blue- #659DBD
+	Forest green- #8D8741
+	*/

@@ -1,0 +1,187 @@
+h1
+{
+text-align: center;
+font-size: 30
+}
+
+h2, h3
+{
+font-family: courier;
+margin: 0px;
+}
+
+body
+{
+background-color: white;
+font-family: Candara;
+left: 150px;
+min-height: 100%;
+}
+
+.center 
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+header
+{
+	font-size: 30px;
+	text-align: center;
+	height: auto;
+	border-bottom: 1px solid gray;
+	width:100%;
+	font-family: sans-seriff;
+}
+
+
+main{
+margin: 10px;
+}
+
+.mainflex 
+{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.mainflex-content 
+{
+  flex: 1;
+}
+
+footer
+{
+	font-size:15px;
+	height:10px;
+	border-top: 1px solid gray;
+	width: 100%;
+	bottom: 0;
+	color: gray;
+}
+
+nav
+{
+text-align: center;
+}
+
+a
+{
+
+}
+
+
+ul
+{
+list-style-image: url(images/jl_logo_face_bullet_openclipart_org.png);
+}
+
+li
+{
+margin-bottom: 5px;
+}
+
+
+table
+{
+	border-collapse: collapse;
+	margin: 20px;
+}
+
+thead
+{
+	background-color: #BC986A;
+}
+
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+
+tbody tr:nth-child(odd) td
+{
+	background-color: #DAAD86;
+}
+
+.topMenu
+{
+	float:left;
+	background-color: #111;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	
+}
+
+.topMenu a
+{
+	padding: 0px 8px 0px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+
+.topMenu a:hover
+{
+	color: gold;
+}
+
+.sideMenu 
+{
+	height: 100%;
+	width: 120px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	background-color: #111;
+	left: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.sideMenu a
+{
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	display: block;
+}
+
+.sideMenu a:hover
+{
+	color: gold;
+}
+
+
+
+
+
+/* Color scheme
+	Light brown- #DAAD86
+	Dark brown- #BC986A
+	Tannish white- #FBEEC1
+	Sky blue- #659DBD
+	Forest green- #8D8741
+	Ivory- #FFFFF0
+	*/
+	
+	
+/*Palette 
+leopard yellow: #e5cf8c;
+
+-timberwolf: #d7d0c8ff;
+-bone: #c8c6afff;
+-morning-blue: #95a78dff;
+-rosy-brown: #bd897eff;
+-portland-orange: #f46036ff 
+
+from:
+https://coolors.co/d7d0c8-c8c6af-95a78d-bd897e-f46036  */

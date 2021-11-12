@@ -1,0 +1,56 @@
+/*ITIS 3135 Activity 2 css file*/
+
+/*styling for the table goes here*/
+body
+{
+	color: white;
+	background-color: #659DBD;
+	width: 750px;
+	margin: 0 auto;
+}
+
+table
+{
+	border-collapse: collapse;
+	
+	margin: 20px;
+}
+
+thead
+{
+	background-color: #BC986A;
+}
+
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.right
+{
+	text-align: right;
+}
+
+tbody tr:nth-child(odd) td
+{
+	background-color: #DAAD86;
+}
+
+ul li:nth-child(even) 
+{
+background-color: #777;
+color: #fff; 
+}
+
+
+/* Color scheme
+	Light brown- #DAAD86
+	Dark brown- #BC986A
+	Tannish white- #FBEEC1
+	Sky blue- #659DBD
+	Forest green- #8D8741
+	*/
+
