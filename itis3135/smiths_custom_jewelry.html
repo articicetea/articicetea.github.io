@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta http-equiv="Refresh" content="0; url='project/index.html'" />
 	<title>Smith's Custom Jewelry Home</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link href="styles/smiths_custom.css" rel="stylesheet" type="text/css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+	<script src="smiths_custom.js"></script>
 </head>
 
 <body class="mainflex">
 	<header>
-	<img src= "project/project_images/smith_logo3.png" id="logo" alt="" class="center">
+		<img src= "project/project_images/smith_logo3.png" id="logo" alt="" class="center">
 	</header>
 		<hr id= "headHr">
-
 	<div class="topMenu">
 		<a href="project/login.html">Login</a>
 		<a href="project/design_tutorial.html">Design Tutorial</a>
@@ -20,11 +24,21 @@
 		<a href="project/contact.html">Contact & Support</a>
 	</div>
 	
-	
 	<main class="mainflex-content">
+		
+		<!--Sliding pictures of jewelry-->
+		<ul id="slider">
+			<li><img src="images/building_01.jpg" alt="" title="ee"></li>
+			<li><img src="images/building_01.jpg" alt="" title="ee"></li>
+			<li><img src="images/building_01.jpg" alt="" title="ee"></li>
+		</ul>
+			
 		<img src= "project/project_images/rings2.jpg" alt= "" id="slide">
 		<br>
 		<br>
+		
+		
+		<!-- Container to show offered items-->
 		<div id="content">
 			<div class="showoff-container">
 				<div class= "showoff">
@@ -56,8 +70,6 @@
 		</div>
 				
 			
-	
-
 	</main>
 	
 
