@@ -3,38 +3,109 @@
 <head>
 	<title>Contact Us</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link href="../styles/smiths_custom.css" rel="stylesheet" type="text/css">
+	<link href="style/smiths_custom.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+	<script src="script/smiths_custom.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
 </head>
 
 <body class="mainflex">
 	<header>
-	<img src= "../project/project_images/smith_logo3.png" id="logo" class="center">
+		<img src= 'images/smith_logo3.png' id="logo" alt="Smith's logo" class="center">
 	</header>
-		<hr id= "headHr">
+	<hr class= "headHr">
 	<div class="topMenu">
+		<a href="index.html">Home</a>
 		<a href="login.html">Login</a>
-		<a href="design_tutorial.html">Design Tutorial</a>
 		<a href="jewelry_designer.html">Jewelry Designer</a>
 		<a href="past_projects.html">Past Projects</a>
-		<a href="#">Contact & Support</a>
-		<a href="../smiths_custom_jewelry.html">Home</a>
+		<a href="contact.html" class='currentPage'>Contact & Support</a>
 	</div>
+	<hr class= "headHr">
 	
 	
 	<main class="mainflex-content">
-	<h2 style="text-align: center;" >Here is our contact and support page</h2>
+	<h2 class='centerText'>Help Topics</h2>
+	
 	
 	<p>
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh cras. Elit eget gravida cum sociis natoque penatibus. Ullamcorper sit amet risus nullam eget felis eget nunc. Ultricies integer quis auctor elit sed vulputate mi sit amet. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Faucibus a pellentesque sit amet. Metus dictum at tempor commodo ullamcorper a lacus vestibulum. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Egestas tellus rutrum tellus pellentesque.
+	This is the support page for Smith's custom jewelry, our frequently asked questions will be addressed here below.
 	</p>
+	<hr>
+	
+	<div id="accordion">
+		<h3>Who are we?</h3>
+		<div>
+		<p>
+		Founded by David Smith in 1988, we originated from a small at home passion for creating customer jewelery.
+		Eventually growing over the years to what we are today. For over 20 years Smith's Jewelry has the go to destination for those who want exceptional service, and exceptional products.
+		</p>
+		</div>
+		<h3>What if the design I have in mind isn't on your website?</h3>
+		<div>
+		<p>
+		That's not a problem! If you don't see a jewelry design you're interested in you're welcome to contact us and discuss what you are envisioning, and we'd be happy to accomidate you.
+
+		</p>
+		</div>
+		<h3>How do I choose my own jewelry design?</h3>
+		<div>
+		<p>
+		Great question! We're continually growing and expanding our personal jewelry design tool, from the nav bar at the top of the page you can select the Jewelry Designer option, and begin creating what you envision!
+		</p>
+		</div>
+	</div>
+	
+	<br>
+	<br>
+	<hr class = 'headHr'>
+	<h2> Contact us! </h2>
+	<div>
+		<p>
+		Smith's Custom Jewelry <br>
+		1212 McSwain Groves Rd <br>
+		Kings Mountain, NC 28086 <br>
 		
+		Ph. (728) 997-8000
+		<br>
+		info@smithsjewelry.com
+		</p>
+		
+		<div class='contactDiv'>
+			<form class= 'contactForm' action='#'>
+				<div class='formDiv'>
+				<label for="fname">First Name</label><br>
+				<input type="text" id="fname" name="firstname" placeholder="Your name.."> <br><br>
+
+				<label for="lname">Last Name</label><br>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name.."> <br><br>
+
+				<label for="country">Country</label><br> 
+				<select id="country" name="country">
+				<option value="usa">USA</option>
+				<option value="canada">Canada</option>
+				</select><br><br>
+
+				<label for="subject">Subject</label><br>
+				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+				<br>
+				<input type="submit" value="Submit">
+				</div>
+
+			</form>
+		</div>
+	</div>
+	
 
 	</main>
 	
 
 	<footer>
 		
-		Page built by <em> Jagged Leopard Industries. 2021</em> &copy; <img src="images/jl_logo_black_resize_left_openclipart_org.png" alt= "jagged leopard black logo"> 
+		Page built by <em> Jagged Leopard Industries. 2021</em> &copy; <img src="../images/jl_logo_black_resize_left_openclipart_org.png" alt= "jagged leopard black logo"> 
 		<a href="https://validator.w3.org/check?uri=referer" style= "text-shadow: 1px 2px 3px blue">| Validate HTML |</a>
 		<a href="https://jigsaw.w3.org/css-validator/check/referer" style= "text-shadow: 1px 2px 3px blue">| Validate CSS |</a>
 	</footer>
